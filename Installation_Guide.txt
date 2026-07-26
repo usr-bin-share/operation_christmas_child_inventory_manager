@@ -1,0 +1,127 @@
+OCC INVENTORY MANAGER
+INSTALLATION GUIDE
+
+Version: 1.3.1
+
+SYSTEM REQUIREMENTS
+
+- Windows 10 or Windows 11
+- Administrator permission to install software
+- Approximately 250 MB of available disk space
+
+INSTALLING
+
+1. Run OCC_Inventory_Manager_Setup.exe.
+2. Review the license agreement.
+3. Choose the installation folder.
+4. Select another folder or drive if needed.
+5. Choose whether to create a desktop shortcut.
+6. Select Install.
+7. Launch OCC Inventory Manager when setup completes, or close the installer.
+
+The application is added to the Start Menu and Windows Installed Apps.
+
+INSTALLATION LOCATION
+
+The installer displays a destination-folder page.
+
+The default location is under Windows Program Files. A different folder or drive can be selected during installation.
+
+Application data is stored separately in the current user's Local AppData folder.
+
+UPDATING
+
+1. Create a database backup.
+2. Close OCC Inventory Manager.
+3. Run the newer installer.
+4. Install to the existing location.
+5. Launch the application and verify the inventory.
+
+The installer normally remembers the previous installation folder.
+
+Inventory data should remain available because it is stored outside the application installation directory.
+
+UNINSTALLING
+
+Use any of these methods:
+- Windows Settings, Apps, Installed apps
+- Start Menu, OCC Inventory Manager, Uninstall OCC Inventory Manager
+- Run unins000.exe from the installation folder
+
+The uninstaller removes the application files and shortcuts.
+
+The inventory database is retained in Local AppData.
+
+REINSTALLING
+
+To reinstall:
+1. Run the installer.
+2. Choose the installation folder.
+3. Complete the installation.
+4. Launch the application.
+
+Existing inventory data should be detected when reinstalling under the same Windows user account.
+
+INSTALLING ON ANOTHER COMPUTER
+
+1. Create a database backup on the original computer.
+2. Install OCC Inventory Manager on the new computer.
+3. Restore the database backup.
+4. Launch the application.
+5. Verify inventory quantities and categories.
+
+BUILDING FROM SOURCE
+
+The development computer must have:
+- Python 3.11 or newer
+- Inno Setup 6
+
+To build:
+
+1. Run build.bat.
+2. Choose the installer output folder.
+3. Select Build Application and Installer.
+4. Review the status line and build activity.
+5. Confirm completion.
+
+The builder uses the installed Python interpreter directly and does not create a separate virtual environment.
+
+The build creates:
+- OCC Inventory Manager.exe in the project folder
+- OCC_Inventory_Manager_Setup.exe in the selected installer output folder
+
+If the build fails, review build_error.log in the project folder.
+
+TROUBLESHOOTING INSTALLATION
+
+Installer will not open:
+- Confirm the download or copied file completed successfully.
+- Check Windows security prompts.
+- Run the installer from a local drive.
+
+Installation is blocked:
+- Confirm the Windows account has permission to install software.
+- Ask the computer administrator to complete the installation.
+
+Application will not start:
+- Restart Windows.
+- Reinstall the latest version.
+- Check whether security software blocked or quarantined the application.
+- Record any displayed error message.
+
+Inventory does not appear:
+- Confirm the same Windows user account is being used.
+- Restore the most recent database backup if moving from another computer.
+
+TROUBLESHOOTING THE BUILDER
+
+Build button appears inactive:
+- Confirm version 1.3.1 or later is being used.
+- Check the status line and Build activity area.
+- Confirm the selected output folder is writable.
+- Review build_error.log in the project folder.
+
+Inno Setup is not detected:
+- Install Inno Setup 6.
+- Confirm ISCC.exe is present.
+- Run build.bat again.

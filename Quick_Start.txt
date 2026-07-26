@@ -1,0 +1,82 @@
+OCC INVENTORY MANAGER
+QUICK START
+
+Version: 1.3.1
+
+START THE APPLICATION
+
+Open OCC Inventory Manager from the Start Menu or desktop shortcut.
+
+REVIEW CATEGORIES
+
+Open the category and subcategory settings before entering a large amount of inventory.
+
+Use categories for broad groups such as:
+- School Supplies
+- Hygiene
+- Toys
+- Clothing and Accessories
+
+Use subcategories for more specific organization.
+
+ADD AN ITEM
+
+1. Open Inventory.
+2. Select Add Item.
+3. Enter the item name.
+4. Select a category.
+5. Select or create a subcategory if needed.
+6. Enter the quantity on hand.
+7. Enter the minimum needed.
+8. Select the age group and gender when applicable.
+9. Add notes if needed.
+10. Save the item.
+
+SEARCH AND EDIT
+
+Use the search field to find an item by name, category, or related information.
+
+Select an item to edit quantities, classification, or notes.
+
+LOW STOCK
+
+An item is considered low stock when its quantity on hand is less than or equal to its minimum-needed quantity.
+
+Use the Dashboard or Low Stock report to review items that need attention.
+
+IMPORT FROM EXCEL OR CSV
+
+1. Create a database backup.
+2. Open Inventory.
+3. Select the import option.
+4. Choose a CSV or XLSX file.
+5. Review the import results.
+6. Verify quantities after the import.
+
+The importer supports flexible column headings. Duplicate items are merged by adding their quantities.
+
+REPORTS
+
+Open Reports to create:
+- Full inventory report
+- Low-stock report
+- CSV export
+- PDF report
+
+BACK UP INVENTORY
+
+Use the database backup option before:
+- Installing an update
+- Importing a large file
+- Moving to another computer
+- Making major inventory changes
+
+Store the backup somewhere other than the computer running the application.
+
+CLOSE THE APPLICATION
+
+Close OCC Inventory Manager normally before:
+- Installing an update
+- Restoring a database backup
+- Copying the database
+- Shutting down or servicing the computer
