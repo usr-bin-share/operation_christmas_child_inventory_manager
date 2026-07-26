@@ -47,7 +47,7 @@ py main.py
 Install these developer tools before building:
 
 - Python 3.11 or newer
-- Inno Setup 6 (https://jrsoftware.org/isdl.php)
+- Inno Setup 6 or newer (https://jrsoftware.org/isdl.php)
 
 Then double-click:
 
