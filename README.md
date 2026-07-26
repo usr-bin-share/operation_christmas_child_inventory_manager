@@ -64,7 +64,7 @@ build.bat
 The standalone program will be created directly in the project folder at:
 
 ```text
-OCC Inventory Manager.exe
+OCC Inventory Manager\OCC Inventory Manager.exe
 ```
 
 ## Build the installer
