@@ -1,0 +1,24 @@
+OCC INVENTORY MANAGER
+TROUBLESHOOTING
+Version 1.4.3
+
+BUILDER DOES NOT OPEN
+Confirm Python is installed and available through py or python.
+
+BUILD FAILS
+Review build_error.log. Confirm internet access and output-folder permissions.
+
+PRIVATE INNO SETUP CANNOT BE PREPARED
+Confirm the computer can reach the official JRSoftware download service and that security software is not blocking the downloaded installer.
+
+APPLICATION DOES NOT START
+Restart Windows, reinstall the application, and check whether antivirus software quarantined the executable.
+
+INVENTORY IS MISSING
+Confirm the same Windows account is being used. Restore a backup before entering replacement data.
+
+IMPORT PROBLEMS
+Confirm the source is CSV or XLSX, includes an item-name header, and does not contain title rows or merged cells above the header.
+
+UNINSTALL DATA WARNING
+The v1.4.3 uninstaller deletes the LocalAppData database and related local application files after confirmation. Deleted data cannot be recovered without an external backup.

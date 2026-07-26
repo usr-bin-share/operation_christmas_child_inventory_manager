@@ -1,0 +1,27 @@
+OCC INVENTORY MANAGER
+USER GUIDE
+Version 1.4.3
+
+PURPOSE
+OCC Inventory Manager tracks donated Operation Christmas Child supplies by item, category, subcategory, quantity, minimum-needed level, age group, gender, and notes.
+
+DASHBOARD
+Review inventory totals, quantity on hand, categories, and low-stock items.
+
+INVENTORY
+Add, edit, delete, search, and filter items. Duplicate detection helps avoid separate records for the same item.
+
+LOW STOCK
+An item is considered low stock when quantity on hand is less than or equal to minimum needed.
+
+IMPORT
+Import CSV and XLSX files. The importer recognizes common header variations and scans early rows for the header. Create a backup and verify totals after importing.
+
+REPORTS
+Create full-inventory and low-stock reports. Export to CSV or PDF.
+
+BACKUP
+Use the built-in database backup function regularly and keep an external copy.
+
+UNINSTALL
+The included uninstaller permanently removes both the installed program and its local database after confirmation. Back up needed data before proceeding.

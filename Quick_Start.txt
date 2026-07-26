@@ -1,0 +1,15 @@
+OCC INVENTORY MANAGER
+QUICK START
+Version 1.4.3
+
+1. Open OCC Inventory Manager from the Start Menu or desktop shortcut.
+2. Review or create categories and subcategories.
+3. Add inventory items with quantity on hand and minimum needed.
+4. Use search and filters to locate items.
+5. Review the Dashboard and Low Stock report. An item is low stock when quantity on hand is less than or equal to minimum needed.
+6. Create a database backup before large imports or upgrades.
+7. Import CSV or XLSX files when needed and verify totals afterward.
+8. Export full inventory or low-stock reports to CSV or PDF.
+
+IMPORTANT UNINSTALL NOTICE
+Uninstalling version 1.4.3 permanently deletes the application database and other local application data after confirmation. Create an external backup first if the data may be needed later.

@@ -1,0 +1,21 @@
+OCC INVENTORY MANAGER
+ADMINISTRATOR GUIDE
+Version 1.4.3
+
+DATA STORAGE
+The application stores its SQLite database in the current Windows user's LocalAppData application folder. The exact path is selected by Qt for OCC Inventory Manager and ends with occ_inventory.db.
+
+BACKUPS
+Create a backup before importing a large file, upgrading, or moving the program to another computer. Store at least one copy outside the computer.
+
+UPGRADES
+Close the application, create a backup, run the newer installer, and verify the inventory after launch.
+
+UNINSTALLATION
+Version 1.4.3 includes uninstall.exe. After the permanent-deletion confirmation, uninstall removes the installed program and the OCC Inventory Manager LocalAppData folder, including the database, transaction history, settings, and local backups. This cannot be undone.
+
+BUILD ADMINISTRATION
+Run build.bat. The graphical builder installs Python requirements, builds the application and uninstall executables, and compiles the installer. If Inno Setup is unavailable, the builder downloads and prepares a private compiler in tools\inno.
+
+TROUBLESHOOTING
+Review build_error.log when a build fails. Confirm Python 3.11 or newer, internet access for first-time dependency/compiler provisioning, and write permission to the selected output folder.

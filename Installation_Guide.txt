@@ -1,0 +1,15 @@
+OCC INVENTORY MANAGER
+INSTALLATION GUIDE
+Version 1.4.3
+
+INSTALL
+Run OCC_Inventory_Manager_Setup.exe, choose the destination folder, optionally create a desktop shortcut, and complete setup.
+
+UPDATE
+Create a database backup, close the application, and run the newer installer.
+
+UNINSTALL
+Use Windows Installed Apps, the Start Menu uninstall shortcut, or uninstall.exe in the installation folder. Confirm the permanent deletion warning. The uninstaller removes both the program and its LocalAppData database and related local files.
+
+BUILD FROM SOURCE
+Install Python 3.11 or newer and run build.bat. A separate Inno Setup installation is not required. The builder can download and prepare a private compiler under tools\inno. Internet access is required the first time it must do so.

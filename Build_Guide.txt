@@ -1,0 +1,25 @@
+OCC INVENTORY MANAGER
+BUILD GUIDE
+Version 1.4.3
+
+REQUIREMENTS
+- Windows 10 or Windows 11
+- Python 3.11 or newer
+- Internet access when dependencies or the private Inno compiler must be obtained
+
+PROCESS
+1. Run build.bat.
+2. Select the installer output folder.
+3. Select Build Application and Installer.
+4. The builder installs or updates requirements.
+5. PyInstaller creates uninstall.exe and OCC Inventory Manager.exe.
+6. The builder uses tools\inno\ISCC.exe, a configured compiler, a detected compiler, or provisions a private compiler.
+7. Inno Setup creates OCC_Inventory_Manager_Setup.exe.
+
+FILES CREATED
+- OCC Inventory Manager.exe
+- uninstall.exe
+- OCC_Inventory_Manager_Setup.exe
+
+ERRORS
+Review build_error.log in the project folder.
